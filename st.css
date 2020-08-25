@@ -1,0 +1,39 @@
+h1{
+    font-size: 55px;
+    color: tomato;
+    text-align: center;
+    margin: 8;
+
+
+}
+.n{display: inline;
+    color: rgb(243, 29, 29);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    padding: 5px;
+    margin: 50px;
+    border: red;
+    border: solid;
+    background-color: white ;
+    color: tomato;
+}
+
+.m{margin: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.p{
+    color: violet;
+    font-size: 29px;
+    text-align: center;
+}
+.f{
+    display: inline-block;
+    color:rgb(1, 2, 15);
+    border :soled;
+    border: 3px;
+    border: black;
+
+    margin: 22px;
+}
