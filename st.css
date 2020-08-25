@@ -6,6 +6,9 @@ h1{
 
 
 }
+.mm {background-color: rgb(255, 233, 233);
+    opacity: 1.0;}
+
 .n{display: inline;
     color: rgb(243, 29, 29);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,12 +31,6 @@ h1{
     font-size: 29px;
     text-align: center;
 }
-.f{
-    display: inline-block;
-    color:rgb(1, 2, 15);
-    border :soled;
-    border: 3px;
-    border: black;
-
-    margin: 22px;
+.f{ background-color: rgb(138, 29, 29);
+    padding: 20px;
 }
