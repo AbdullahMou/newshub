@@ -1,14 +1,23 @@
 var old = prompt('how old are you');
-var greeting;
+var status;
+
+function ageness(num){
+    var  age 
+    age = old *1.1
+    return age
+    }
 
 if ( old > 18 && 55 > old) {
-greeting= 'YOU HAVE TO PAID TO NEWSHUB VIP MEMBER FIRST !';
+status= 'YOU HAVE TO PAID TO NEWSHUB VIP MEMBER FIRST !';
 }
 
-else if (old <18) {
-greeting = 'YOU DONT HAVE TO BE HERE !';
+else if (old <=18) {
+status = 'YOU DONT HAVE TO BE HERE !';
 }
 
-else if (old >55) {
-greeting = 'YOU ABOUT TO DIY! ' ;}
-document .write( ' <h3>' +greeting + ' </ h3>');
+else if (old >=55) {
+status = 'YOU ABOUT TO DIY! ' ;}
+
+ var paymint; 
+
+document.write('<h3>' + status + '  ======> ========> =======> '+' your monthly paymint is : '  +  ageness(status) + ' $  for VIP club ' + '<h3>');
